@@ -1,0 +1,79 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+/* #uu{
+    background-image: linear-gradient(blue rgb(6, 87, 141));
+} */
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+     background-image: linear-gradient(rgb(66, 63, 109), rgb(53, 93, 126), rgb(27, 27, 73)); 
+}
+
+
+.box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: auto;
+    border-radius: 3px;
+    /* */
+    text-align: center;
+    margin: 20px;
+    padding: 30px;
+    transition: 0.2s;
+background-image: url"fa-solid fa-file-lock";
+}
+
+/* 
+ .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    color: black;
+ } */
+
+ .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+     color:  chocolate;
+
+    margin-bottom: 15px;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./pixx.png);
+}
+
+.box:hover{
+    background-color: rgb(19, 25, 71);
+}
+.xx{
+    text-align: center;
+}
+.xx h4{
+    color: rgba(0, 0, 255, 0.788);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.xx h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+h1{
+    color: white;
+    
+} 
+p{
+    color: rgba(255, 255, 255, 0.356);
+}
